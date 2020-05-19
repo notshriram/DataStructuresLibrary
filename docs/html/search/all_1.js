@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['stack_2ecpp_2',['Stack.cpp',['../Stack_8cpp.html',1,'']]],
-  ['stack_2eh_3',['Stack.h',['../Stack_8h.html',1,'']]]
+  ['max_2',['MAX',['../Stack_8cpp.html#a392fb874e547e582e9c66a08a1f23326',1,'MAX():&#160;Stack.cpp'],['../Stack_8h.html#a392fb874e547e582e9c66a08a1f23326',1,'MAX():&#160;Stack.h']]]
 ];
