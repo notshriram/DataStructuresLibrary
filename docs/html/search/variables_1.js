@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stackarray_23',['StackArray',['../classStack.html#abbac05737298c3bdc7f4456548d604d4',1,'Stack']]]
+  ['pointer_74',['pointer',['../classStack.html#a38e1df3c8a4a1066fea8b61b44c3917d',1,'Stack']]]
 ];

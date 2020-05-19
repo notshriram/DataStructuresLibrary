@@ -1,11 +1,13 @@
 var indexSectionsWithContent =
 {
-  0: "lmpstv",
-  1: "s",
+  0: "_bcdefilmoprstv~",
+  1: "cils",
   2: "ls",
-  3: "pstv",
-  4: "ps",
-  5: "m"
+  3: "bcefiloprstv~",
+  4: "cps",
+  5: "l",
+  6: "_m",
+  7: "d"
 };
 
 var indexSectionNames =
@@ -15,7 +17,9 @@ var indexSectionNames =
   2: "files",
   3: "functions",
   4: "variables",
-  5: "defines"
+  5: "related",
+  6: "defines",
+  7: "pages"
 };
 
 var indexSectionLabels =
@@ -25,6 +29,8 @@ var indexSectionLabels =
   2: "Files",
   3: "Functions",
   4: "Variables",
-  5: "Macros"
+  5: "Friends",
+  6: "Macros",
+  7: "Pages"
 };
 

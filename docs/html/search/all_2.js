@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['pointer_3',['pointer',['../classStack.html#a38e1df3c8a4a1066fea8b61b44c3917d',1,'Stack']]],
-  ['pop_4',['pop',['../classStack.html#a09e820f3c3531cf3f401af3b3ca5d56f',1,'Stack']]],
-  ['push_5',['push',['../classStack.html#a49eae92446c82c5617f6abfe0e91a3af',1,'Stack']]]
+  ['clear_3',['clear',['../classList.html#af1a1a036fd6fb9ba8b866cd2049994a8',1,'List']]],
+  ['const_5fiterator_4',['const_iterator',['../classList_1_1const__iterator.html',1,'List&lt; Object &gt;::const_iterator'],['../classList_1_1const__iterator.html#ac4acc72b1d0bb852f598ab9d8aa89821',1,'List::const_iterator::const_iterator(Node *p)'],['../classList_1_1const__iterator.html#a964733a80f24f5f21adf3efd30ed6828',1,'List::const_iterator::const_iterator()']]],
+  ['current_5',['current',['../classList_1_1const__iterator.html#a154935307f3fb2b10b331383fc17a442',1,'List::const_iterator']]]
 ];
