@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pointer_22',['pointer',['../classStack.html#a38e1df3c8a4a1066fea8b61b44c3917d',1,'Stack']]]
+  ['current_73',['current',['../classList_1_1const__iterator.html#a154935307f3fb2b10b331383fc17a442',1,'List::const_iterator']]]
 ];
