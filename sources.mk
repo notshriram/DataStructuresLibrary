@@ -18,8 +18,8 @@
 
 # Add your Source files to this variable
 
-SOURCES =./src/list.cpp\
-	./src/vector.cpp
+SOURCES =./src/List.cpp\
+	./src/Stack.cpp
 
 # Add your include paths to this variable
 INCLUDES = -I ./include/
