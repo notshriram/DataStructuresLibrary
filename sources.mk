@@ -19,7 +19,8 @@
 # Add your Source files to this variable
 
 SOURCES =./src/List.cpp\
-	./src/Stack.cpp
+	./src/Stack.cpp\
+	./src/BST.cpp
 
 # Add your include paths to this variable
 INCLUDES = -I ./include/
