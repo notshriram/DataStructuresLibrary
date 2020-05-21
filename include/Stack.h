@@ -20,8 +20,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 #ifndef STACK_H
 #define STACK_H
-#include<string>
-#include<iostream>
 
 using namespace std;
 
