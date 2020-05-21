@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['inorder_72',['inorder',['../classBST.html#adb9e4699dbb23204bd94678aba2a4461',1,'BST']]],
-  ['insert_73',['insert',['../classBST.html#afbcdc2d28239d9feb5202e3b427a40b6',1,'BST::insert()'],['../classList.html#a390fc6c9939d218774e0f4417db3ba25',1,'List::insert()']]],
-  ['iterator_74',['iterator',['../classList_1_1iterator.html#afd83f36deaa3fdd986ff248e0455ba34',1,'List::iterator::iterator()'],['../classList_1_1iterator.html#a624ece3afe168b0ebf17277e74bd2035',1,'List::iterator::iterator(Node *p)']]]
+  ['findmax_79',['findMax',['../classBST.html#a10e7dec321fb1afb3fb9bb179afbce99',1,'BST']]],
+  ['findmin_80',['findMin',['../classBST.html#af598773b9039e5f4d8921258c6d1eb24',1,'BST']]],
+  ['front_81',['front',['../classList.html#abe529829ec4225890ddf410e88951bee',1,'List::front()'],['../classList.html#a0aa070b02dc8ca229d450d0d5ee4adf7',1,'List::front() const']]]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['viewstack_94',['viewStack',['../classStack.html#ab8af4fc85c3c6fcf294a98887388b2a8',1,'Stack']]]
+  ['search_101',['search',['../classBST.html#ad2214a9b2f1f27ab03c67c2d96739b1f',1,'BST']]],
+  ['size_102',['size',['../classList.html#a53ace3802bdd87e49c99a5fc0109e2c8',1,'List']]],
+  ['stack_103',['Stack',['../classStack.html#a14cd1cba325bead4ff0a91bc6eb0f6f5',1,'Stack']]]
 ];

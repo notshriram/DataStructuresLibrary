@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['remove_38',['remove',['../classBST.html#a5f763a9a8b967362940dd20c39b85433',1,'BST']]],
-  ['retrieve_39',['retrieve',['../classList_1_1const__iterator.html#ac025c51891eac5452dd40b0f06b87311',1,'List::const_iterator']]]
+  ['queue_40',['Queue',['../classQueue.html',1,'Queue&lt; T &gt;'],['../classQueue.html#af73bb29c868f7b37f369c668f114bd9f',1,'Queue::Queue()']]],
+  ['queue_2ecpp_41',['Queue.cpp',['../Queue_8cpp.html',1,'']]],
+  ['queue_2eh_42',['Queue.h',['../Queue_8h.html',1,'']]]
 ];
