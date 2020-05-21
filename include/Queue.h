@@ -19,9 +19,9 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 #define _QUEUE_H_
 
 /**
- * The <code>List</code> class represents the linked list data structure
+ * The <code>Queue</code> class represents the Queue data structure
  *
- * @tparam Object type for the data contained in the list
+ * @tparam Object type for the data contained in the Queue
  */
 
 template <typename T>
@@ -47,7 +47,7 @@ private:
 
 public:
 	/**
-	 * Default Constructor for the class Binary Search Tree
+	 * Default Constructor for the class Queue
 	 *
 	 */
 	Queue()
