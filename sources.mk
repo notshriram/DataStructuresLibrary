@@ -20,7 +20,8 @@
 
 SOURCES =./src/List.cpp\
 	./src/Stack.cpp\
-	./src/BST.cpp
+	./src/BST.cpp\
+	./src/Queue.cpp
 
 # Add your include paths to this variable
 INCLUDES = -I ./include/
