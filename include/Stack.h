@@ -1,5 +1,5 @@
 /*
-Copyright (C) 2020 by Madduri Sriram
+Copyright (C) 2020 by Sriram Madduri
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -15,62 +15,131 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
-
-
-
 #ifndef STACK_H
 #define STACK_H
+#include<iostream>
 
 using namespace std;
 
-
-#define MAX 500
-
 /**
- * The <code>Stack</code> class represents the data structure stack
+ * The <code>node</code> class represents structure of node
  */
 
-
-class Stack
+template <class E>
+class node
 {
-
 	public:
-
-		int pointer;
-		int StackArray[MAX];
-
-		/**
-		 * Default constructor for Stack
-		 */
-
-		Stack();
-
-
-		/**
-		 * Pushes a new element into Stack
-		 */
-		void push();
-		
-
-		/**
-		 * Pops the top most element off the Stack
-		 */
-		void pop();
-		
-
-		/**
-		 * Displays all the elements of the Stack
-		 */
-		void viewStack();
-		
-
-
-		/**
-		 * Displays the top most element of Stack
-		 */
-		void top();
-		
-
+		E data;
+		node<E> *pointerToNext;
 };
+
+/**
+ * The <code>stack</code> class represents structure of node
+ */
+
+template <class E>
+class stack
+{
+	public:
+		node<E> *Top;
+
+		/**
+		 * Default constructor for stack
+		 */
+
+		stack()
+		{
+			Top=NULL;
+		}
+
+		/**
+		 * Pushes a new element into stack
+		 */
+
+		void push(E input);
+
+		/**
+		 * Pops the top element of stack
+		 */
+
+		void pop();
+
+		/**
+		 * Displays the whole stack
+		 */
+
+		void viewStack();
+
+		/**
+		 * Displays the top element of stack
+		 */	
+
+		void peek();
+};
+
+//Pop method
+template <class E>
+void stack<E>::pop()
+{
+	if(Top!=NULL)
+	{
+
+		cout<<"The popped element is "<< Top->data <<endl;
+    	Top = Top->pointerToNext;
+
+	}
+	else
+	{
+		cout<<"ERROR: Stack underflow/Stack is empty."<<endl;
+	}
+
+}
+
+//Push method
+template <class E>
+void stack<E>::push(E input)
+{
+	node<E> *newNode=new node<E>; 
+	newNode->data = input; 
+	newNode->pointerToNext = Top; 
+	Top = newNode;
+	cout<<newNode->data<<" is pushed into stack."<<endl;
+
+}
+
+//Peek method
+template <class E>
+void stack<E>::peek()
+{
+	
+	cout<<Top->data<<" is on the top."<<endl;
+
+}
+
+
+//viewStack method
+template <class E>
+void stack<E>::viewStack()
+{
+	node<E> *current;
+
+	if(Top!=NULL)
+	{
+		current = Top; 
+     	cout<<"STACK: ";
+     	while (current != NULL) 
+     	{ 
+     		cout<< current->data <<" "; 
+     		current = current->pointerToNext;
+     	}
+
+	}
+   else 
+   {
+   		cout<<"Empty stack, nothing to display";
+   }   
+   cout<<endl;
+
+}
 
 #endif
